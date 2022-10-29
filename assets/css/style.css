@@ -1,0 +1,19 @@
+
+/* configuração-global*/
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* organização-do-elemento-:root */
+
+:root{
+    
+    font-size: 10px;
+
+}
+
+
