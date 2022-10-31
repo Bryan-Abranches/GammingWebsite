@@ -133,7 +133,63 @@ a{
 }
 
 
+      /* sessao-conteudo */
 
+
+.sessao-conteudo{
+   padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.sessao-conteudo div{
+  display: flex;
+  justify-content: space-between;
+  color:aliceblue;
+  font-size: 1.7rem;
+  align-items: center;
+}
+
+
+
+.card-title input{
+
+    background-color: #2E56A6;
+    color: aliceblue;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+
+}
+
+
+.card-game{
+  gap: 2rem;
+  justify-content:center;
+  
+}
+
+.card-game div {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+
+}
+
+.card-game div img{
+  width: 100%;
+
+}
+
+.card-game input{
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  width: 50%;
+  background-color: #f37813;
+  color:aliceblue;
+  border-radius: 0.5rem
+}
 
 
 
