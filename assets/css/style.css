@@ -10,13 +10,16 @@
 
 :root {
   font-size: 10px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
   text-decoration: none;
 }
 
 body {
-  font-size: 1.6rem;
+    background-image: linear-gradient(to top, #0C1D40, #223D73,#2E56A6 );
+    background-repeat: no-repeat;
+    height: 100vw;
 }
+
 
 .container {
   max-width: 1000px;
@@ -25,7 +28,8 @@ body {
 }
 header {
   width: 100%;
-  background-color: #466673;
+  background-color: #2E56A6;
+ 
 }
 
 a{
@@ -38,7 +42,11 @@ a{
   justify-content: space-between;
   align-items: center;
   padding: 2.5rem;
+  margin-right: 10rem;
+  margin-left: 20rem ;
+  font-size: 1.3rem;
 }
+
 
 .menu-nav{
     display: flex;
@@ -58,4 +66,77 @@ a{
 
 }
 
+.sessao-home{
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: justify;
+    flex-wrap: wrap;                             
+}
+
+.sessao-home div {
+  display: flex;  
+  flex-direction: column;
+  max-width:50%;
+  padding: 3rem;
+  gap: 4rem;
+}
+
+
+.sessao-home div img{
+  width: 100%;
+}
+
+
+
+.sessao-home div h2 {
+
+  font-size: 1.4rem;
+  color: #F77C16;
+  font-weight: 800;
+  margin-bottom: 2.3rem;
+
+}
+
+
+.sessao-home div h3{
+  font-size: 4rem;
+  text-align: start;
+
+
+}
+
+.sessao-home div h3,p{
+  
+  color: whitesmoke;
+
+}
+
+.sessao-home div p{
+  
+  font-size: 1.2rem;
+  text-align: left;
+  line-height: 2.3rem;
+
+}
+
+.botton-home{
+
+  background-color: #f37813;
+  color: whitesmoke;
+  padding: 0.8rem;
+  border-radius: 1.5rem;
+  width: 16rem;
+  font-size: 1.2rem;
+
+}
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2? family= Poppins:wght@600;700;800 & display=swap');
 @import url("https://fonts.googleapis.com/css2? family= Roboto:wght@500;700;900 & display=swap");
